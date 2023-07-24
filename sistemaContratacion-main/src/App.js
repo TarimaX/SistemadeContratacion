@@ -33,6 +33,7 @@ function App() {
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
               <Route path="/" element={<Dashboard />} />
+              <Route path="/login" element={<Auth/>}/>
               <Route path="/seleccionar-postulacion" element={<Formulario />} />
               <Route path="/subir-informacion" element={<FAQ />} />
             </Routes>
